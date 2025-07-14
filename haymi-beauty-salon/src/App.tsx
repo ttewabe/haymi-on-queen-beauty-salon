@@ -1,7 +1,10 @@
-import './App.css'
+import './App.css';
+import { AppRouter } from './AppRouter';
 
 export const App = () => {
-  return <h1>Haymi's on Queen</h1>;
+  return (
+    <div className="App">
+      <AppRouter />
+    </div>
+  );
 };
-
-
