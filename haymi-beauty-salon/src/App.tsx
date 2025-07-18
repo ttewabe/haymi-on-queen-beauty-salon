@@ -12,10 +12,18 @@ const App: React.FC = () => {
     <div>
       <Navbar />
       <main className="pt-16">
-        <section id="home"><Home /></section>
-        <section id="services"><Services /></section>
-        <section id="about"><About /></section>
-        <section id="contact"><Contact /></section>
+        <section id="home">
+          <Home />
+        </section>
+        <section id="services">
+          <Services />
+        </section>
+        <section id="about">
+          <About />
+        </section>
+        <section id="contact">
+          <Contact />
+        </section>
       </main>
       <Footer />
     </div>
