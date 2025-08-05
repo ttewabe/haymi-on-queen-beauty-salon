@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/logo1.jpg';
+import logo from '../assets/logo-2.png';
 
 const Navbar: React.FC = () => {
   const scrollToSection = (id: string) => {
